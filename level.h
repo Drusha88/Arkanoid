@@ -154,6 +154,7 @@ const unsigned char kLevelData0[level][kScreenRows][kScreenColumns + 1] =
 	}
 };
 
+
 //Wall
 const sf::IntRect kWallImage = sf::IntRect(0, 3 * kPixelsPerCell, kPixelsPerCell, kPixelsPerCell);
 
@@ -208,8 +209,8 @@ const sf::IntRect kHealthImage = sf::IntRect(0, 4 * kPixelsPerCell, kHealthwidth
 const unsigned char kLevelData0[level][kScreenRows][kScreenColumns + 1] =
 {
 {
-"$                                                                               ",
 "################################################################################",
+"@                                                                              @",
 "@                                                                              @",
 "@       X    X    X    X    X    X    X    X    X    X    X    X    X          @",
 "@                                                                              @",
@@ -251,8 +252,8 @@ const unsigned char kLevelData0[level][kScreenRows][kScreenColumns + 1] =
 },
 
 {
-"                                                                                ",
 "################################################################################",
+"@                                                                              @",
 "@                                                                              @",
 "@            X    X         X    X         X    X         X    X               @",
 "@                                                                              @",
@@ -295,6 +296,7 @@ const unsigned char kLevelData0[level][kScreenRows][kScreenColumns + 1] =
 {
 "################################################################################",
 "@                                                                              @",
+"@                                                                              @",
 "@            X    X    X    X    X    X    X    X    X    X    X               @",
 "@                                                                              @",
 "@            X    X    X    X    X    X    X    X    X    X    X               @",
@@ -334,6 +336,7 @@ const unsigned char kLevelData0[level][kScreenRows][kScreenColumns + 1] =
 "@&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@",
 }
 };
+
 */
 
 

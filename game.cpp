@@ -244,7 +244,7 @@ void Game::update(float dt)
 		}
 			else if (!(blockInLevel) && (m_currentLevel == (level - 1)))
 			{
-				drawText("GAME OVER", 130, 170, 150);
+				drawText("YOU WIN", 300, 170, 150);
 				m_isGameActive = false;
 				shutdown();
 			}
